@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTrinity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html#issues">REPORT A PROBLEM</a></li>
+                    <li><a href="gethelp.html" target="_blank">GET HELP</a></li>
+                    <li><a href="#contact" target="_blank">CONTACT US</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+        <h1>Women Security</h1>
+        <p>Women's safety in India has become a strong cause for concern with the <br> 
+            alarming increase in violent and sexually deviant criminal activity <br>
+            against women across many cities in the country.</p>
+            <button type="button" class="btn danger"><a href="tel:100" class="emergency-btn">EMERGENCY-Dial 100</a></button>
+        </div>
+    </section>
+
+<section class="issues" id="issues">
+    <br>
+    <h1>What to do for these women safety issues?</h1>
+    <br>    
+    <p>
+        <button class="problems"> <a href="domesticviolence.html" target="_blank">Domestic Violence</a></button>
+        <button class="problems"> <a href="cyberharassment.html" target="_blank">Cyber Harassment</a></button>
+        <button class="problems"> <a href="streetharassment.html" target="_blank">Harassment in public places</a></button>
+        <button class="problems"> <a href="sexualassault.html" target="_blank">Sexually Assaultment</a></button>
+        <button class="problems"> <a href="eveteasing.html" target="_blank">Eve Teasing</a></button>
+        <button class="problems"> <a href="humantrafficking.html" target="_blank">Human Trafficking</a></button>
+        <br>
+        <br>
+    </p>
+
+</section>
+
+<section class="team" id="contact">
+    
+    <h1>Meet the Team</h1>
+    <br>
+    <div class="row">
+        <div class="team-col">
+            <img src="images/yashraj.jpeg">
+            <h3>Yashraj Kulshrestha</h3>
+            <p>Sophomore @IIIT Surat. <br> Frontend Developer. </p>
+            <br>
+            <a href="https://wa.me/+917976174613" target="_blank"> <img src="images/whatsapp.png"> </a>
+            <a href="https://www.linkedin.com/in/yashraj-kulshrestha-404a65223/" target="_blank"> <img src="images/linkedin.png"> </a>
+            <a href="https://www.instagram.com/yrk.yashrajkulshresth/" target="_blank"> <img src="images/instagram.png"> </a>
+        </div>
+
+        <div class="team-col">
+            <img src="images/pinky sharma.jpeg">
+            <h3>Aditya Sharma</h3>
+            <p>Sophomore @IIIT Surat. <br> Backend Developer. </p>
+            <br>
+            <a href="https://wa.me/+916376661504" target="_blank"> <img src="images/whatsapp.png"> </a>
+            <a href="https://www.linkedin.com/in/aditya-sharma-825016228/" target="_blank"> <img src="images/linkedin.png"> </a>
+            <a href="https://www.instagram.com/itsadityasharma7124/" target="_blank"> <img src="images/instagram.png"> </a>
+        </div>
+
+        <div class="team-col">
+            <img src="images/padam.jpeg">
+            <h3>Padam Mantry</h3>
+            <p>Sophomore @IIIT Surat. <br> Frontend Developer. </p>
+            <br>
+            <a href="https://wa.me/+918620958858" target="_blank"> <img src="images/whatsapp.png"> </a>
+            <a href="https://www.linkedin.com/in/padam-mantry/" target="_blank"> <img src="images/linkedin.png"> </a>
+            <a href="https://www.instagram.com/padam_mantry/" target="_blank"> <img src="images/instagram.png"> </a>
+        </div>
+
+        <div class="team-col">
+            <img src="images/dorlikar.jpeg">
+            <h3>Aditya Dorlikar</h3>
+            <p>Sophomore @IIIT Surat. <br> Backend Developer. </p>
+            <br>
+            <a href="https://wa.me/+917841804226" target="_blank"> <img src="images/whatsapp.png"> </a>
+            <a href="https://www.linkedin.com/in/aditya-dorlikar-5a559a22b/" target="_blank"> <img src="images/linkedin.png"> </a>
+        </div>
+
+        <div id="teamphoto">
+            <img src="images/team.jfif">
+            <h3>DevTrinity</h3>
+            <p>Sophomores @IIIT Surat. <br> Web Developers. </p>
+            <br>
+        </div>
+        
+    </div>
+</section>
+
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
